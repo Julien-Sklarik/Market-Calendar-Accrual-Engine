@@ -1,7 +1,5 @@
 # Market Calendar Accrual Engine
 
-I built this small library to generate accrual schedules and payment dates with US and UK holiday calendars. The work started at UC Berkeley and I shaped it into a production style Python package that reads clearly and is easy to extend.
-
 ![Accrual timeline](assets/accrual_schedule.png)
 
 ## Highlights
@@ -77,12 +75,6 @@ market_calendar_accrual_engine
         readme.md
 ```
 
-## Development
-Create a fresh environment of your choice and install dependencies from requirements.txt then run tests
-
-```
-pytest
-```
 
 ## Notes for reviewers
 I kept the scope tight on purpose so the logic is easy to audit. The public API mirrors the typical calendar primitives used in fixed income and swaps. If you want to see extensions such as business day counts or additional day count conventions I can add them quickly.
